@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es"> 
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="../style/style.css">
+<link rel="icon" type="image/x-icon" href="../assets/favicon.ico">
+<script src="https://kit.fontawesome.com/3bc49ffe58.js" crossorigin="anonymous"></script>
+<script>
+function validateForm() {
+        let x = document.forms["SuscForm"]["edad"].value; 
+        if ( x=="No"){
+         
+             alert("Lo sentimos. Tienes que se mayor de 18 años para suscibirte");
+             return false          
+        }       
+      }
+</script>     
+</head>
+
+<body>
+  <header>
+    <h1>SUPER-ANIMES</h1>
+    <title>Suscribite</title>   
+</header><br>
+
+<div class="TituloSuscripcion">
+  <h2 id="titulo_principal">Si quieres recibir lo ultimo en Anime, ¡SUSCRIBETE!</h2>
+</div>
+
+<div class="Formulario">
+<form name="SuscForm" onsubmit="return validateForm()" action="gracias.html"  method="post" >
+ <fieldset>
+  <legend style="font-size:30px;">Completa!!!</legend>
+    <label for="name">Nombre:</label><br>
+    <input type="text" id="name" name="name" size="40" required autofocus><br>
+    <label for="lastname">Apellido:</label><br>
+    <input type="text" id="lastname" name="lastname" size="40" required ><br>
+    <label for="email">Email:</label><br>
+    <input type="text" id="email" name="email" size="40" required><br>
+    <h4>¿Eres Mayor de 18 años?</h4>
+    <input type="radio" id="mayoredad" name="edad" value="Si" size="40" >
+    <label for="mayoredad">SI</label><br>
+    <input type="radio" id="menoredad" name="edad" value="No" size="40">
+    <label for="menoredad">NO</label><br><br>
+    <textarea name="message" rows="10" cols="40">Cuentanos que Animes son tu favoritos y te haremos llegar informacion.
+    </textarea><br><br>
+    <input id= boton type="submit" value="Suscribirte" size="40" target="_blank">
+  </fieldset>
+</div>
+
+</form>
+<footer>
+
+  <div class="cont-footer">
+    <div>
+        <h3>Contacta con nosotros</h3>
+        <ul class="lista-1">
+            <li><i class="fa-brands fa-facebook fa-lg"></i><span>Facebook</span></li> 
+            <li><i class="fa-brands fa-youtube fa-lg"></i><span>Youtube</span></li>
+            <li><i class="fa-brands fa-square-twitter fa-xl"></i><span>Twitter</span></li>
+            <li><i class="fa-brands fa-instagram fa-lg" style="color: #ffffff;"></i><span>Instagram</span></li>
+            <li><i class="fa-brands fa-tiktok fa-lg"></i><span>Tick Tock</span></li>
+        </ul>
+    </div>
+    <div>
+        <h3>SuperAnimes</h3>
+        <ul>
+            <li>Acerca</li>
+            <li>Términos de uso</li>
+            <li>Politica de privacidad</li>
+            <li>Aplicación</li>
+        </ul>
+    </div>
+    <div>
+        <h3>Cuenta</h3>
+        <ul>
+            <li>Crear cuenta</li>
+            <li>Acceder</li>
+        </ul>
+    </div>
+
+</div>
+  
+</footer>
+</body>
+</html>

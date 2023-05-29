@@ -1,0 +1,444 @@
+
+
+@font-face{
+    font-family: 'inept';
+    src: url(../assets/anime_inept/Anime\ Inept.otf);}
+
+header{
+    background-color: rgb(0, 0, 0, 0.6);
+}
+
+ header h1 {
+    margin: 20px;
+    font-family:  'inept', cursive;
+    text-align: center;
+    font-size: 50px;
+    color: orangered;
+    font-weight: 900;
+}
+
+header nav ul {
+    list-style: none;
+    font-family: 'inept', cursive;
+    font-size: 20px;
+    color:white;
+    margin: 10px;
+    padding: 10px;
+    padding: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-shadow: none
+}
+
+header h2 {
+    font-family:  'inept', cursive;
+    text-align: center;
+    font-size: 20px;
+    color: orangered;
+   font-weight: 600;
+}
+
+#body_recomendado {
+    font-family: Tahoma, Verdana, sans-serif;
+    background-color: rgb(32, 27, 41);   
+    
+}   
+   
+.headeres{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px chartreuse;
+    border: #000000;
+   
+}
+#titulo_principal{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px red;
+    font-size: 50px;
+    
+} 
+.Titulo_anime {
+    background-color: transparent;
+    font-size: 30px;
+    font-weight:bold;
+    text-shadow: 0 0 3px chartreuse;
+    text-decoration-style: double;
+    text-decoration-line:underline;
+    text-decoration-color: chartreuse;
+    text-align: left;
+    color: whitesmoke;
+    text-transform: capitalize;
+    
+}
+.tresimg { 
+    display: grid;
+    grid-template-columns:400px 400px 400px;
+    grid-template-rows:200px;
+    justify-content: space-around;
+    gap: 5px;
+    background-color:chartreuse;
+    padding: 10px;
+    align-content: center; 
+    background-color: rgb(0, 0, 0, 0.6);
+    flex-wrap: wrap;
+}
+.tresimg img{ 
+    height:200px;
+    width:400px;
+    flex-wrap: wrap;
+}
+.fotelis p{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-indent: 50px;
+    text-align: center;
+    color: rgb(253, 251, 251);
+    
+  }
+#boton {
+    font-size: 35px;
+    font-weight: bold;
+}
+ol{
+    background-image: url("../assets/realfondo.jpeg");
+    background-repeat: no-repeat; 
+    background-position: 50% 50%;
+    height: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    border-top-left-radius: 90%;
+    border-bottom-right-radius: 50%;
+    border:rgb(2, 1, 1);
+    
+}
+
+.Paggracias{
+    color :rgb(13, 212, 63);
+    background-image: url("../assets/FONFOFONDO.jpg");
+    background-repeat: no-repeat; 
+    background-position: 50% 50%;
+    /*/height: 1500px;/*/
+    background-attachment: fixed;
+    background-size: cover;   
+}
+#salto{
+    font-size: 20px;
+    color: white;
+    
+}
+@media only screen and (max-width: 600px) {
+    ol {
+        background-image: url('assets/FONFOFONDO.jpg');
+        
+    }
+    .fotelis p{  
+        font-size:15px;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+    }
+    .tresimg img {
+    width: 100%;
+    height:  100%; 
+  }
+  .tresimg{
+    display: grid;
+    grid-template-columns:400px;
+    grid-template-rows:200px 200px 200px;
+    padding: 10PX;
+    border: 20%;
+    margin: 5%;
+}
+}
+
+body {
+background-image: url(../assets/anime-fondo.jpeg);
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 1.5rem;
+text-align: center; 
+background-position: 0 0;
+background-origin: border-box;  
+}  
+
+
+
+html {
+font-size: 62.5%; 
+
+}    
+
+
+h1 {
+    font-size: 3rem;
+    color: white;
+} 
+
+h2 {
+    font-size: 2rem;
+    color: white;
+} 
+
+.entrada-blog a{
+display: inline-block;
+background-color: rgb(70, 128, 185);
+color: #fff;
+padding: 10px 20px;
+text-decoration: none;
+font-weight: bold;
+text-transform: uppercase;
+text-align: center;
+
+}
+
+.Principal_Merchandising h1 {
+    font-size: 3rem;
+    color: white;
+} 
+
+.Principal_Merchandising h2 {
+    font-size: 2rem;
+    color: white;
+} 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+header{
+    background-color: rgb(0, 0, 0, 0.6);
+}
+
+ header h1 {
+    margin: 40px;
+    font-family:  'inept', cursive;;
+    text-align: center;
+    font-size: 100px;
+    color: orangered;
+    font-weight: 900;
+    font-size: 10vw;
+}
+
+header nav ul{
+    list-style: none;
+    font-family: 'Organic Relief';
+    font-size: 30px;
+   
+    margin: 20px;
+    padding: 20px;
+   
+}
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+    
+
+header h2 {
+    font-family:  'inept', cursive;
+    text-align: center;
+    font-size: 75px;
+    color: orangered;
+font-weight: 900;
+}
+
+body {
+    background-image: url(../assets/anime-fondo.jpg);
+}
+.carousel-slide {
+    width: 100%;
+    
+}
+.carouselExampleControls{
+    width: 50%;
+    text-align: center;
+    display: block; 
+}
+
+.carousel-item {
+    width: 50px;
+    height: 30%; 
+}
+
+main h2 {
+color: white;
+}
+
+.recomendados {
+    text-align: center;
+    margin-top: auto;
+    font-family: 'inept', cursive;
+    font-size: 60px;
+    margin-top: 40px;
+}
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center ;
+    margin: 20px 0;
+}
+.caja{
+    background-color: rgb(15, 2, 2, 0.5);
+    width: 30%;
+    padding: 15px;
+    text-align: center;
+    margin: 10px;
+    border: 5px solid orangered;
+    border-radius: 10px;
+    overflow:auto;
+    animation:bounce;
+    animation-duration: 1s;
+    
+}
+
+.imgcaja {
+    width: 75%;
+   
+}
+
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+header ul {
+    
+    padding: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+
+ p{ 
+    font-family: 'Neucha', cursive;
+    font-size: 20px;
+    color: white;
+   
+ }
+
+.cont-portada{
+    min-height: 100vh;
+    
+    
+}
+.cont-portada img{
+    width: 100%;
+  
+}
+
+.contenedor-anime {
+ 
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    justify-content: center;
+    
+}
+
+.anime-detalles{
+    
+    width: 200px;
+    height: 90%;
+    padding: 15px;
+    text-align: center;
+    margin: 0.8rem;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0, 0.6);
+}
+
+.anime-imagen{
+width: 100%;
+height: 70%;
+
+
+}
+
+.anime-detalles h3 {
+    padding: 5px;
+color: white;
+}
+
+
+.cont-footer{
+    display: flex;
+    justify-content:space-around;
+    padding: 50px;
+    background-color: rgb(0, 0, 0, 0.6);
+    color: white;
+    
+}
+
+h3{
+   margin-bottom: 20px;
+   
+}
+ul li {
+    list-style: none;
+    padding: 7px;    
+}
+ul li span{
+   margin: 10px;
+}
+
+
+@media (max-width: 500px) {
+  
+    .caja{
+        width: 90%;
+    }
+    nav ul {
+     display: flex;
+   
+     flex-direction: column;
+        
+    justify-content: space-between;
+ 
+    } 
+
+       .contenedor{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+       }
+    }
+
+    @media (max-width: 600px){
+        .cont-footer{
+            flex-direction: column;
+            text-align: center;
+
+    }
+    }
+
+       @media (max-width: 720px) {
+        nav ul {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 20px;
+        }
+      
+        nav li {
+          flex-basis: calc(50% - 20px);
+        }
+    
+            
+
+      }
+    
+@media (min-width: 480px){
+.Merchandising {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+        row-gap: 2rem;
+
+  }
+}
